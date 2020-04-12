@@ -1,3 +1,9 @@
+#Example Journey
+
+## Week 0 (12 April)
+
+[Here](/Users/ayhanertuglu/Documents/GitHub/spring20-ayhanertuglu/files/homeworkkk_0.html)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ETM-58D/spring20-ayhanertuglu/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
