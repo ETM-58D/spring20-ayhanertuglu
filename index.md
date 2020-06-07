@@ -2,7 +2,7 @@
 
 ## Week 0 (12 April)
 
-[Here](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%200/homeworkkk_0.html)
+[Here](/files/Homework 0/homeworkkk_0.html)
 
 ## Week 13 (4 May)
 
