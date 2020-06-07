@@ -12,7 +12,7 @@ rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homewo
 rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="html_document")
 ```
 
-1. [Codes for answer of Question 2](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/q2.R)
+1. [Codes for answer of Question 2](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%201/q2.R)
 
     After, we upload the data and giving the column names, we analyzed the scatterplot for all futures. We see that according to plots, there are correlation between NOX and DIS, MEDV and RM, LSTAT and MEDV.
     
@@ -20,4 +20,4 @@ rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homewo
     
     Later, we analyzed the barplot of comp6 and coefficients. Comp6 used crim, zn, cas, nox, rm, rad, tax, ptratip, b for the equation and some of them have negative effect. For example, for the 1st observation, positive effect is bigger than the negative effect which means that with correlations crim+zn+nox+rad+tax+b is bigger than others.
     
-    Please click [here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/q2-q3.docx) for plots and more details.
+    Please click [here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%201/q2-q3.docx) for plots and more details.
