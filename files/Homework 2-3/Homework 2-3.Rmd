@@ -12,7 +12,7 @@ rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homewo
 rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="html_document")
 ```
 
-1. [Codes for answer of Question.a](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%202-3/part_a.R)
+1. [Codes for answer of Question.a](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%202-3/part_a.R)
 
    As mentioned in the question, we prepared a data which includes date, hour, value, lag_168 and lag_48. Lag_168 and lag_48 represents the value in same hour in previous week and in 2 days ago. For example, for 2020-03-08 hour 8, lag_168’s value is 2020-03-08 hour 8 and lag_48’s value is 2020-03-06 hour 8. We prepared a model for both lag_168 and lag_48 naive approaches. Then, we calculated all absolute percentage error rates for all the rows in the test set. After that, we find MAPE for both lag_168 (%5.9) and lag_48 (%9.44). We find out that lag_168’s MAPE is smaller than lag 48’s. It means that in naïve approaches, predicted based on lag_168 is better than the other one. We also visualize the hourly error rate for lag_168 and lag_48 which are below. (You can find our all calculations and results in data)
 
@@ -22,15 +22,15 @@ You may see the quantiles and the medians for the each hours' MAPEs in the plots
 <img width="1440" alt="mape48" src="https://user-images.githubusercontent.com/61945929/83976742-9e5bc880-a904-11ea-8fba-fe3564492ec5.png">
 
     
-2. [Codes for answer of Question.b](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%202-3/part_b.R)
+2. [Codes for answer of Question.b](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%202-3/part_b.R)
 
    In part b, we created a “long” format. In our data, there are 5 columns date, hour, value, lag_168 and lag_48. Firstly, we split our data into two subsets, first one is training data which includes the data till 1st of March 2020 and remaining is the test data. we created our model with linear regression. We used lag_168 and lag_48 as our features to predict value. We calculated all absolute percentage error rates for all the rows in the test set. Then, we calculated MAPE for our model which is %5.7. (You can find our all calculations and results in data)
 
-3. [Codes for answer of Question.c](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%202-3/part_c.R)
+3. [Codes for answer of Question.c](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%202-3/part_c.R)
 
    In part c, we transform our data from “long” format to “wide” format since hourly prediction is asked in the question. After transformation we merge data sets to prepare our model. We prepared 24 models for all 24 hours. In models, we used lag_168 and lag_48 as our features which are 48 features in total. We split data into two sets which are training set and test set. Training set’s and test set’s dates are same with b part. Then, we calculated all absolute percentage error rates for all the rows in the test set. After that, we find MAPE for all hours which is equal to 24 MAPEs. We cannot put MAPE results here because it is too large, but you can check and see in data. (You can find our all calculations and results in data)
 
-4. [Codes for answer of Question.d](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%202-3/part_d.R)
+4. [Codes for answer of Question.d](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%202-3/part_d.R)
 
    In part d, we transform our data from “long” format to “wide” format since hourly prediction is asked in the question. After transformation we merge data sets to prepare our penalized model. In models, we used lag_168 and lag_48 as our features which are 48 features in total. We split data into two sets which are training set and test set. Training set’s and test set’s dates are same with b part. We used cv.glmnet to build our model with 10-fold cross validation which means that for 100 lambda values glmnet created 10 sets and in total, we had 1000 models in total. Also, we determined our type of measure as mse. After we created our model, we plot our lambda value based on mean-squared error. As we know, we need a “best lambda” to build our model with least error. We used “lambda.min” to achieve best performance in test set. As we can see from the plot, our model used nearly 38 features with lambda.min to get the least mean squared error. We also calculated MAPE for all hours and prepared a new data table called “part_d_matrix” to visualize all values, predicted values, row-based absolute error and MAPE. (You can find our all calculations and results in data).
 
