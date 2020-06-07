@@ -6,11 +6,11 @@
 
 ## Week 13 (4 May)
 
-[Q1 Answers](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%201/hw1q1.html) for the HW1.
+[Q1 Answers](files/Homework 1/hw1q1.html) for the HW1.
 
-[Q2 Answers](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%201/hw1q2.html) for the HW1.
+[Q2 Answers](files/Homework 1/hw1q2.html) for the HW1.
 
-[Q3 Answers](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%201/hw1q3.html) for the HW1.
+[Q3 Answers](files/Homework 1/hw1q3.html) for the HW1.
 
 You can download the all written codes for HW1 from [here](https://github.com/ETM-58D/spring20-ayhanertuglu/tree/master/files/Homework%201/q1-2-3.R)
 
