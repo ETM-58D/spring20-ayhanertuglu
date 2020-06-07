@@ -12,7 +12,7 @@
 
 [Q3 Answers](files/Homework 1/hw1q3.html) for the HW1.
 
-You can download the all written codes for HW1 from [here](files/Homework 1/q1-2-3.R)
+You can download the all written codes for HW1 from [here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%201/q1-2-3.R)
 
 ## Week 23 (7 June)
 
