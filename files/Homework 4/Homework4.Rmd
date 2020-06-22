@@ -1,0 +1,32 @@
+---
+title: "Answers of the Homework 2-3"
+author: "Ayhan Ertuğlu - ETM58D - Spring 2020"
+---
+```{r,echo=FALSE,results="hide"}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+```{r,echo=FALSE,eval=FALSE}
+rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="pdf_document")
+rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="html_document")
+```
+
+1. [Codes for Homework 4](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%204/Homework4.R)
+
+
+In part a, we prepared a homepage which is illustrated below in Figure.1. We put some rules for the date filter which are minimum and maximum dates as 2017-01-01, 2019-12-29. In sidebar, user can filter data and see the date, hour, consumption and average temperature values over the filtered range.
+
+![](https://user-images.githubusercontent.com/63557391/85336320-16bab000-b4e7-11ea-97c1-67f10e792cc6.png)
+
+In part b, the sidebar is same as the part a, user can filter date and see average consumption and temperature values based on 24-hour. Date range is limited with the minimum (2017-01-01) and maximum (2019-12-29) values. As user chooses different date ranges, 2 plots are changed simultaneously. The plot on the upper part shows average hourly consumption over the filtered time period. Average consumption values are on the y-axis, while hour values are on the x-axis. The other plot which is below shows that the average hourly temperature for multiple cities (T_1, T_2, T_3...). Also, in the plot, average temperature values are on y-axis and hour values are on the x-axis.
+
+![](https://user-images.githubusercontent.com/63557391/85336421-3e117d00-b4e7-11ea-87fe-f78784f8b492.png)
+
+In part c, left side of the page is as same as the other parts but date range are limited with the minimum (2017-01-01) and maximum (2019-12-27) values. In this part, we used the data which are 2-days and 7-days before to predict the consumption values. In the question, we are asked to show forecasted hourly consumption values but there is a rule. The rule says that if user chooses the following date range, 2019-05-07 and 2019-07-09, the graph shows the hourly consumption for 2019-07-11. The Forecasted Consumption Value graph is only affected by the end date of the date range.
+
+![](https://user-images.githubusercontent.com/63557391/85336488-57b2c480-b4e7-11ea-8788-f6d83d61fe24.png)
+
+Please click [here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%204/Homework4.docx) for plots and more details.
+
+

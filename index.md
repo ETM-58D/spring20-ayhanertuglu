@@ -26,6 +26,8 @@ Please [click here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master
 
 [Click here](https://bounetm58dgroup4.shinyapps.io/hw4_app/) to reach the interactive website.
 
+[Click here](files/Homework 4/Homework4.html) for the answers of HW4.
+
 Please [click here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%204/Homework4.docx) to download the report.
 
 You can reach the code from [here](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Homework%204/Homework4.R)
