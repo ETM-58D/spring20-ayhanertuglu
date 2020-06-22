@@ -10,7 +10,7 @@ require(tidyr)
 require(glmnet)
 require(ggplot2)
 set.seed(100)
-consumption=fread("Desktop/Okul/II.Dönem/Business Analytics/Homework 2-3/GercekZamanliTuketim-01012016-19052020.csv")
+consumption=fread("/Users/ayhanertuglu/Desktop/Okul/II.Dönem/Business Analytics/Homework 2-3/GercekZamanliTuketim-01012016-19052020.csv")
 consumption
 setnames(consumption,names(consumption)[3],'value')
 consumption[,date:=as.Date(Tarih,'%d.%m.%Y')]
