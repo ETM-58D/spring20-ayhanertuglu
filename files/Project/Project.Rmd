@@ -6,11 +6,14 @@ author: "Ayhan Ertuğlu - ETM58D - Spring 2020"
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 
+```
+
 ```{r,echo=FALSE,eval=FALSE}
 rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="pdf_document")
 rmarkdown::render("/home/baydogan/Courses/IE582/Fall18/Guidelines/example_homework_0.Rmd",output_format="html_document")
 
 ```
+
 1. [Codes for Naïve Approach](https://github.com/ETM-58D/spring20-ayhanertuglu/blob/master/files/Project/Project_Naive_Approach.R)
 
     You may find the code for our first approach of the problem, naive approach.
