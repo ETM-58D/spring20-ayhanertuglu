@@ -15,9 +15,7 @@ str(plot)
 #To change weekly and monthly graphs, you can change the filter dates
 #85004
 target_85004=data.table(plot[product_content_id==85004])
-target_85004_1= target_85004 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_85004_1$date=target_85004$date
-target_85004_1 <- target_85004_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_85004_1 <- target_85004 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_85004_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -33,9 +31,7 @@ ggplot(target_85004_1, aes(day, sold_count)) +
 
 #31515569
 target_31515569=data.table(plot[product_content_id==31515569])
-target_31515569_1= target_31515569 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_31515569_1$date=target_31515569$date
-target_31515569_1 <- target_31515569_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_31515569_1 <- target_31515569 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_31515569_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -51,9 +47,7 @@ ggplot(target_31515569_1, aes(day, sold_count)) +
 
 #32939029
 target_32939029=data.table(plot[product_content_id==32939029])
-target_32939029_1= target_32939029 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_32939029_1$date=target_32939029$date
-target_32939029_1 <- target_32939029_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_32939029_1 <- target_32939029 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_32939029_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -69,9 +63,7 @@ ggplot(target_32939029_1, aes(day, sold_count)) +
 
 #3904356
 target_3904356=data.table(plot[product_content_id==3904356])
-target_3904356_1= target_3904356 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_3904356_1$date=target_3904356$date
-target_3904356_1 <- target_3904356_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_3904356_1 <- target_3904356 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_3904356_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -87,9 +79,7 @@ ggplot(target_3904356_1, aes(day, sold_count)) +
 
 #4066298
 target_4066298=data.table(plot[product_content_id==4066298])
-target_4066298_1= target_4066298 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_4066298_1$date=target_4066298$date
-target_4066298_1 <- target_4066298_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_4066298_1 <- target_4066298 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_4066298_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -105,9 +95,7 @@ ggplot(target_4066298_1, aes(day, sold_count)) +
 
 #5926527
 target_5926527=data.table(plot[product_content_id==5926527])
-target_5926527_1= target_5926527 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_5926527_1$date=target_5926527$date
-target_5926527_1 <- target_5926527_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_5926527_1 <- target_5926527 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_5926527_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
@@ -123,8 +111,6 @@ ggplot(target_5926527_1, aes(day, sold_count)) +
 
 #6676673
 target_6676673=data.table(plot[product_content_id==6676673])
-target_6676673_1= target_6676673 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_6676673_1$date=target_6676673$date
 target_6676673_1 <- target_6676673_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_6676673_1, aes(day, sold_count)) +
@@ -141,9 +127,7 @@ ggplot(target_6676673_1, aes(day, sold_count)) +
 
 #7061886
 target_7061886=data.table(plot[product_content_id==7061886])
-target_7061886_1= target_7061886 %>% mutate_all(~ifelse(is.na(.x), mean(.x, na.rm = TRUE), .x))
-target_7061886_1$date=target_7061886$date
-target_7061886_1 <- target_7061886_1 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
+target_7061886_1 <- target_7061886 %>%filter(date >= "2020-06-01" & date <= "2020-06-27")
 
 ggplot(target_7061886_1, aes(day, sold_count)) +
   geom_boxplot(alpha = 0.5, size=1) +
